@@ -1,0 +1,958 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Martel+Sans&family=Mitr&family=Poppins:wght@500&family=Roboto:ital@1&family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cairo&family=Martel+Sans&family=Mitr&family=Poppins:wght@500&family=Roboto:ital@1&family=Tajawal:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+    width: 1200px;
+    max-width: 100%;
+
+}
+
+#up {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid #00CC5B;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor: pointer;
+    display: none;
+    padding: 5px;
+}
+
+
+#up img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar1 {
+    font-family: "Cairo", sans-serif !important;
+    position: relative;
+    z-index: 999999999;
+    direction: ltr;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 4.063em;
+    background-image: linear-gradient(to left, #00f490 0%, #6723a5 60%);
+    box-shadow: 0 0.125em 0.25em 0 rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+}
+
+.navbar1 #logo {
+    margin: 0 15px 0 15px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+}
+
+#start_now {
+    width: 150px;
+    height: 40px;
+    border-radius: 1.688em;
+    color: #ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+    background: none;
+    border: solid 1px #ffffff;
+    margin: 0 15px 0 15px;
+    padding-top: 5px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#start_now a {
+    color: #fff;
+}
+
+.menu {
+    width: 150px;
+    height: 100vh;
+    background-color: #00CC5B;
+    font-size: 20px;
+    position: fixed;
+}
+
+.menu ul {
+    padding: 25px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu span img {
+    width: 15px;
+    height: 15px;
+}
+
+.menu li {
+    padding: 12px 0;
+    margin-top: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar1 button {
+    border: none;
+    background-color: #00CC5B;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#close {
+    position: absolute;
+    left: 160px;
+    top: 65px;
+}
+
+.hide {
+    display: none;
+}
+
+.section1 {
+    background: url("0209202313570263e4fbaeeb634.jpg");
+    height: 770px;
+    gap: 0;
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background-position: center center;
+    background-size: Cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section1 .imge img {
+    width: 400px;
+    height: 400px;
+}
+
+.section1 .imge {
+    float: left;
+    width: 60%;
+}
+
+.section1 .about {
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+.section1 .about p {
+    font-family: "Tajawal" !important;
+
+}
+
+.section1 .about span {
+    direction: rtl;
+}
+
+.section1 .about #more_about_us {
+    background-color: #00D25E;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 12px 18px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.section1 .about #more_about_us a {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.section1 .about #call_us {
+    background-color: #fff;
+    border: 1px solid #00D25E;
+    border-radius: 15px;
+    padding: 12px 18px;
+    font-size: 20px;
+
+}
+
+.section1 .about #call_us a {
+    color: #00D25E;
+    font-weight: bolder;
+}
+
+.section2 {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.section2 .img2 {
+    float: right;
+
+}
+
+.section2 .about2 {
+    margin-right: 15px;
+    width: 50%;
+}
+
+.section2 .about2 h4 {
+    font-family: "Tajawal" !important;
+    font-weight: bolder;
+    color: rgb(95, 207, 108);
+    margin-bottom: 15px;
+    direction: rtl;
+
+}
+
+.section2 .about2 h1 {
+    font-size: 36px;
+    font-family: "Cairo" !important;
+    font-weight: bolder;
+    direction: rtl;
+
+}
+
+.section2 .about2 p {
+    font-family: "Tajawal" !important;
+    direction: rtl;
+
+}
+
+.section2 .about2 button {
+    float: right;
+    background-color: #00D25E;
+    border: 1px solid #00D25E;
+    border-radius: 15px;
+    padding: 12px 18px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.section2 .about2 button a {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+
+.section2 .img2 img {
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.logos {
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 50px;
+}
+
+.logos img {
+    width: 50px;
+    display: flex;
+    float: left;
+    position: relative;
+    left: 20%;
+    margin-right: 20%;
+}
+
+.p {
+    overflow: hidden;
+    margin-left: 4.5%;
+    direction: rtl;
+    margin-top: 50px;
+}
+
+.p img {
+    width: 50px;
+
+}
+
+.p .p1 {
+    float: left;
+    width: 24.33333%;
+    padding: 0 45px;
+}
+
+.p h3 {
+    font-size: 20px;
+    font-family: "Cairo" !important;
+    font-weight: bolder;
+}
+
+.p p {
+    font-family: "Tajawal" !important;
+}
+
+.section3 {
+    direction: rtl;
+    margin-top: 10%;
+    overflow: hidden;
+    background-color: #126A1C;
+    height: 350px;
+}
+
+.section3 .about3 {
+    margin-top: 6%;
+}
+
+.section3 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: "Cairo" !important;
+}
+
+.section3 p {
+    color: #fff;
+    font-family: "Tajawal" !important;
+    font-weight: bolder;
+}
+
+.section3 .about3 button {
+    padding: 12px 18px;
+    background-color: #fff;
+    border: 1px solid #00D25E;
+    margin-top: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: "Tajawal" !important;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+}
+.section3 .about3 button a{
+    color: #00D25E;
+
+}
+
+.section4 {
+    overflow: hidden;
+    direction: rtl;
+}
+
+.section4 .hed1 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.section4 .hed1 h3 {
+    color: #5FCF75;
+    margin-bottom: 20px;
+    font-family: "Tajawal" !important;
+    font-weight: bolder;
+}
+
+.section4 .hed1 h1 {
+    font-family: "Cairo" !important;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.section4 .about4 {
+    float: left;
+    margin-top: 10%;
+    width: 33.33333%;
+    text-align: center;
+}
+
+.section4 .about4 img {
+    width: 50px;
+    margin-bottom: 25px;
+}
+
+.section4 .about4 .h3 {
+    position: relative;
+    bottom: 13px;
+}
+
+.section4 .about4 h3 {
+    font-weight: bolder;
+    font-family: "Cairo" !important;
+    margin-top: 30px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.section4 .about4 p {
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-family: "Tajawal" !important;
+}
+
+.section4 .about4 a {
+    font-family: "Tajawal" !important;
+    color: #00d25e;
+}
+
+.section5 {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+.section5 h1 {
+    font-weight: bolder;
+    font-family: "Tajawal" !important;
+    margin-bottom: 20px;
+}
+
+.section5 p {
+    font-family: "Tajawal" !important;
+}
+
+.our-work {
+    display: flex;
+    margin-top: 15%;
+}
+
+.our-work img {
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+}
+
+/* .our-work img:hover{
+    box-shadow: 10px 20px 3px #000;
+    
+} */
+.our_customer {
+    margin-top: 20%;
+}
+
+.our_customer .our h1 {
+    font-size: 24pt;
+    font-family: "Cairo" !important;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.our_customer .our p {
+    font-family: "Tajawal" !important;
+    color: rgb(126, 140, 141);
+}
+
+.company {
+    max-width: 100%;
+}
+
+.company img {
+    filter: grayscale(100%) contrast(100%) brightness(.6);
+    width: auto;
+    max-height: 52px;
+    margin: 50px;
+}
+
+.section6 {
+    background-color: #126A1C;
+    height: 600px;
+    overflow: hidden;
+}
+
+.opinion {
+    text-align: center;
+    color: #fff;
+    margin-top: 24pt;
+    position: relative;
+    top: 50px;
+}
+
+.opinion h1 {
+    font-size: 24pt;
+    font-family: "Cairo" !important;
+    font-weight: bolder;
+}
+
+.opinion p {
+    font-family: "Tajawal" !important;
+}
+
+.customer_opinipn {
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin: 80px 0 0 37px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.customer_opinipn img {
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.customer_opinipn h1,
+h2 {
+    color: #fff;
+    font-family: "Cairo" !important;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.customer_opinipn p {
+    font-family: "Tajawal" !important;
+    color: #fff;
+    padding: 20px;
+}
+
+.customer_opinipn hr {
+    border: 1px solid #000;
+    width: 300px;
+    margin-left: 24px;
+    opacity: 0.1;
+    margin-top: 15px;
+}
+
+.section7 {
+    text-align: center;
+    overflow: hidden;
+}
+
+.section7 h1 {
+    font-size: 24pt;
+    font-family: "Cairo" !important;
+    margin-top: 7%;
+}
+
+.section7 p {
+    color: rgb(126, 140, 141);
+    font-family: "Tajawal" !important;
+    margin-bottom: 3%;
+}
+
+.section7 #sec7 {
+    background-color: #00D25E;
+    border: 1px solid #00D25E;
+    padding: 10px 40px;
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+}
+
+.section7 #sec7_1 {
+    color: #000;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.section7 #sec7 a {
+    font-family: "Tajawal" !important;
+    color: #ffffff;
+    font-size: 13pt;
+}
+
+#sec7_1 a {
+    color: #000000;
+    font-size: 13pt;
+    font-family: "Tajawal" !important;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 900px;
+    height: 400px;
+    margin-left: 140px;
+    margin-top: 8%;
+}
+
+form input {
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 10px 20px 60px;
+    direction: rtl;
+    margin-top: 20px;
+    width: 45%;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#sub {
+    background-color: #00CC5B;
+    color: #fff;
+    font-family: "Tajawal" !important;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+    font-size: 16pt;
+    width: 45%;
+    position: relative;
+    right: 104px;
+    border: 1px solid #00CC5B;
+}
+
+.message {
+    float: right;
+    text-align: right;
+    margin-right: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    flex-direction: column;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    min-height: 400px;
+}
+
+.navbar2 {
+    overflow: hidden;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.navbar2 #logooo {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.navbar2 ul li {
+    display: inline;
+    margin: 10px;
+}
+
+/* tablet screen */
+@media screen and (max-width:968px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar1 {
+        width: 100%;
+
+    }
+
+    .img2 img {
+        max-width: 100%;
+    }
+
+    .menu {
+        max-width: 100%;
+    }
+
+    .section2 .about2 {
+        width: 100%;
+        float: right;
+        margin-top: 25px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section2 .about2 button {
+        float: none;
+    }
+
+    .section2 .img2 {
+        width: 100%;
+    }
+
+    .p {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .p p {
+        width: 100%;
+    }
+
+    .p .p1 {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .section3 {
+        text-align: center;
+        height: 350px;
+    }
+
+    .section3 .about3 a {
+        width: 100%;
+        left: 0;
+    }
+
+    .section4 .about4 {
+        float: none;
+        width: 100%;
+    }
+
+    .our-work {
+        display: block;
+    }
+
+    .our-work img {
+        height: auto;
+        width: 100%;
+    }
+
+    .section6 {
+
+        height: 1700px;
+    }
+
+    .section6 .customer_opinipn {
+        width: 100%;
+        margin: 20% 0 0 0;
+    }
+
+    .section6 hr {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section7 .message {
+        text-align: center;
+        float: none;
+        margin-right: 0;
+    }
+
+    .section7 form {
+        width: 85%;
+        margin: 20% 0 0 0;
+        height: auto;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    .section7 form input {
+        width: 85%;
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    #sub {
+        margin-bottom: 40px;
+        left: 0;
+        width: 85%;
+        margin-top: 30px;
+    }
+    .navbar2{
+        margin-bottom: 50px;
+        margin-top: 5%;
+    }
+}
+
+
+/* mobile screen */
+
+@media screen and (max-width:415px) {
+    .section1 {
+        height: auto;
+    }
+
+    .section1 .about {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section1 .imge {
+        float: left;
+        width: 100%;
+    }
+
+    .section2 .about2 button {
+        float: none;
+    }
+
+    .section1 .imge img {
+        width: 100%;
+    }
+
+    .p {
+        margin-left: 0;
+    }
+
+    .p img {
+        margin-top: 30px;
+    }
+
+
+    .p .p1 {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .section3 {
+        text-align: center;
+        height: 350px;
+    }
+
+
+    .section3 a {
+        left: 0;
+    }
+
+    .section3 .about3 a {
+        width: 100%;
+    }
+
+    .section4 .about4 {
+        float: none;
+        width: 100%;
+    }
+
+    .section6 {
+
+        height: 1400px;
+    }
+
+    .section6 .customer_opinipn {
+        width: 100%;
+        margin: 20% 0 0 0;
+    }
+
+    .section6 hr {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section7 .message {
+        text-align: center;
+        float: none;
+        margin-right: 0;
+    }
+
+    .section7 form {
+        width: 90%;
+        margin: 20% 0 0 0;
+        height: auto;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    .section7 form input {
+        width: 90%;
+        margin: 30px 0 0 0;
+        display: inline-block;
+    }
+
+    .section7 form #sub {
+        margin-bottom: 50px;
+        width: 90%;
+    }
+    .navbar2{
+        margin-bottom: 30px;
+        margin-top: 5%;
+    }
+
+    .navbar2 #logooo {
+        float: none;
+        margin-left: 45%;
+    }
+    .navbar2 ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar2 ul li {
+        margin-left: 28px;
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .our-work {
+        display: block;
+    }
+
+    .our-work img {
+        width: 100%;
+        margin: 0;
+    }
+
+    #sub {
+        width: 100%;
+        margin-top: 30px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:655px) {
+    .section1 {
+        height: auto;
+    }
+
+    .section1 .about {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .section1 .imge {
+        width: 100%;
+    }
+
+    .section1 .imge img {
+        width: 100%;
+    }
+
+    .section3 .about3 a {
+        width: 100%;
+    }
+}
